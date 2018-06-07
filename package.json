@@ -1,11 +1,22 @@
 {
   "name": "html-webpack-script-attributes-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "给script标签添加attributes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zc@duiba.com.cn",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontendnote/html-webpack-script-attributes-plugin.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "bugs": {
+    "url": "https://github.com/frontendnote/html-webpack-script-attributes-plugin/issues"
+  },
+  "homepage": "https://github.com/frontendnote/html-webpack-script-attributes-plugin#readme"
 }
