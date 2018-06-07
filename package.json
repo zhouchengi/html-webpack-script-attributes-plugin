@@ -1,0 +1,11 @@
+{
+  "name": "html-webpack-script-attributes-plugin",
+  "version": "1.0.1",
+  "description": "给script标签添加attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zc@duiba.com.cn",
+  "license": "ISC"
+}
