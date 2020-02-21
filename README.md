@@ -1,5 +1,6 @@
-## 基于html-webpack-plugin的一个插件
-可以给script标签添加attributes
+## html-webpack-script-attributes-plugin
+
+Addon for the html-webpack-plugin to customize script attributes of script meta.
 
 ## Usage
 ``` javascript

@@ -1,11 +1,11 @@
-function WebpackPluginAttributesScript(options = {}) {
+function WebpackHtmlScriptAttributesPlugin(options = {}) {
   const defaultOptions = {
     
   }
   this.options = Object.assign({}, defaultOptions, options);
 }
 
-WebpackPluginAttributesScript.prototype.apply = function(compiler) {
+WebpackHtmlScriptAttributesPlugin.prototype.apply = function(compiler) {
   var self = this;
   if (compiler.hooks) {
     compiler.hooks.compilation.tap('HtmlWebpackReplace', function(compilation) {
@@ -24,7 +24,7 @@ WebpackPluginAttributesScript.prototype.apply = function(compiler) {
   }
 };
 
-WebpackPluginAttributesScript.prototype.innerScript = function(
+WebpackHtmlScriptAttributesPlugin.prototype.innerScript = function(
   htmlPluginData,
   callback
 ) {
@@ -39,11 +39,5 @@ WebpackPluginAttributesScript.prototype.innerScript = function(
   });
   callback(null, htmlPluginData);
 };
-
-function istype(o, type) {
-  return (
-    Object.prototype.toString.call(o) === '[object ' + (type || 'Object') + ']'
-  );
-}
 
 module.exports = WebpackPluginAttributesScript;
