@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-script-attributes-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Addon for the html-webpack-plugin to customize the script attributes of script tag.",
   "main": "index.js",
   "scripts": {
