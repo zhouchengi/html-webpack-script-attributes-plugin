@@ -40,4 +40,4 @@ WebpackHtmlScriptAttributesPlugin.prototype.innerScript = function(
   callback(null, htmlPluginData);
 };
 
-module.exports = WebpackPluginAttributesScript;
+module.exports = WebpackHtmlScriptAttributesPlugin;
