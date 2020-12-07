@@ -11,7 +11,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackScriptAttributesPlugin = require('html-webpack-script-attributes-plugin').default
 
 // TS
-import OSSWebpackPlugin from 'oss-webpack-plugin'
+import HtmlWebpackScriptAttributesPlugin from 'html-webpack-script-attributes-plugin'
 
 module.exports = {
   plugins: [
